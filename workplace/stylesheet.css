@@ -562,6 +562,8 @@ a:active {
 .form_row {
     display: flex;
     width: 100%;
+    flex-direction: column;
+    margin: 5px;
 }
 
 .contact_me_form select,
@@ -581,7 +583,7 @@ textarea {
 
 .contact_me_form button {
     display: block;
-    margin: 0 auto;
+
     appearance: button;
     backface-visibility: hidden;
     background-color: #8e9689;
@@ -621,6 +623,7 @@ textarea {
     resize: none;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
+
 }
 
 .contact_texts {
