@@ -304,7 +304,7 @@ h2 {
 }
 
 
-.git_input {
+.git_input::placeholder {
     font-size: 18px;
     font-weight: 200;
     display: block;
@@ -472,7 +472,7 @@ a:hover {
 
 /* cards */
 
-#card_container {
+.card_container {
     max-width: 300px;
     margin: 40px auto;
 
