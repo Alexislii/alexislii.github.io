@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200;300;400;500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="javascript.js"></script>
     <title>Alexis's Dining Table</title>
 </head>
 
@@ -46,9 +47,18 @@
         <p class="contact_texts">First things first, there are some rules you need to know:</p>
         <ol class="contact_texts">
             <li>
-                Bring a nice bottle of wine (ideally more than 50 bucks).
+                Bring a nice bottle of wine (ideally more than 50 bucks). Just a little hint here&#58;
+                <ul>
+                    <li>Screaming Eagle Cabernet Sauvignon 1992</li>
+                    <li>Chateau Cheval Blanc 1947</li>
+                    <li>Jeroboam of Chateau Mouton-Rothschild 1945</li>
+                    <li>Chateau Lafite 1869</li>
+
+
+                </ul>
 
             </li>
+            <p></p>
             <li>
                 If you can't bring a bottle of nice wine, bring a bottle of any wine.
             </li>
@@ -60,23 +70,52 @@
 
                 If you can't bring a bottle of water, just come.
             </li>
+            <li>the number of visitors matters.
+                <table>
+                    <tr>
+                        <th>
+                            Guest Number
+                        </th>
+                        <th>Appetiser</th>
+                        <th>Soup</th>
+                        <th>Entrée</th>
+                        <th>Dessert</th>
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>yep</td>
+                        <td>nope</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                        <td>yep</td>
+                        <td>nope</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td colspan="4">Let's dine out.</td>
+
+                    </tr>
+                </table>
+            </li>
         </ol>
         <p class="contact_texts">Great! If you accept to follow the rule(s), please make an appointment here.</p>
         <section class="banner">
             <form class="contact_me_form">
                 <div class="form_row">
                     <input type="date">
-                    <!--
-                    <select name="days">
-                        <option value="day-select">Select Day</option>
-                        <option value="sunday">Sunday</option>
-                        <option value="monday">Monday</option>
-                        <option value="tuesday">Tuesday</option>
-                        <option value="wednesday">Wednesday</option>
-                        <option value="thursday">Thursday</option>
-                        <option value="friday">Friday</option>
-                        <option value="saturday">Saturday</option>
-                    </select>-->
                     <select name="hours">
                         <option value="hour-select">Select Hour</option>
                         <option value="12">12:00 pm</option>
@@ -96,7 +135,7 @@
                 <div class="form_row">
                     <textarea name="Notes">Notes:</textarea>
 
-                    <button class="appointment">Make an appointment</button>
+                    <button id="appointment" onclick="myClick2()">Make an appointment</button>
 
 
 

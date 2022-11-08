@@ -7,6 +7,10 @@
     position: relative;
 }
 
+ul,
+ol {
+    margin: 0
+}
 
 .nav_container {
     display: flex;
@@ -366,19 +370,9 @@ h2 {
     color: #eee;
 }
 
-.blockquote--quoted::before {
-    content: "\201c";
-    font-size: 100px;
-    display: block;
-    margin-bottom: -40px;
-    margin-top: -20px;
-    padding-top: 20px;
-}
 
-.blockquote--bordered {
-    border-left-width: 10px;
 
-}
+
 
 .quote_text--credit {
     text-align: right;
@@ -627,10 +621,26 @@ textarea {
 }
 
 .contact_texts {
-    margin: 40px 190px;
+    margin: 20px 190px;
     text-align: left;
     font-weight: 200;
     font-size: 18px;
     color: #595b58;
     line-height: 30px;
+}
+
+table,
+th,
+td {
+
+    text-align: center;
+}
+
+tr,
+td {
+    width: 150px
+}
+
+tr:nth-child(even) {
+    background-color: #d6d9d2;
 }
